@@ -2,7 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "Mein zweites Backend",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,6 +23,7 @@
     "typescript": "latest",
     "tslint": "latest",
     "tslib": "latest",
-    "mongo-express": "latest"
+    "mongo-express": "latest",
+    "shelljs": "latest"
   }
 }
