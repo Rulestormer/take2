@@ -4,18 +4,32 @@
   "description": "Mein zweites Backend",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "cd dist && ../node_modules/.bin/nodemon -V",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc":"node scripts/tsc",
+    "init":"node scripts/init",
+    "clean":"node scripts/clean",
+    "mongoexpress":"node scripts/mongoexpress"
   },
   "author": "Oliver Nagel",
   "license": "GPL-3.0",
   "dependencies": {
     "bcrypt": "latest",
+    "bluebird":"latest",
     "body-parser": "latest",
     "compression": "latest",
+    "cors":"latest",
     "express": "latest",
+    "helmet":"latest",
+    "jws":"latest",
     "mongodb": "latest",
     "mongoose": "latest",
-    "router": "latest"
+    "morgan":"latest",
+    "router": "latest",
+    "spdy":"latest",
+    "uuid":"latest",
+    "winston":"latest",
+    "validator":"latest"
   },
   "devDependencies": {
     "fixme": "latest",
@@ -24,6 +38,23 @@
     "tslint": "latest",
     "tslib": "latest",
     "mongo-express": "latest",
-    "shelljs": "latest"
+    "shelljs": "latest",
+    "fs-extra": "latest",
+    "slash": "latest",
+
+    "@types/bcrypt":"latest",
+    "@types/bluebird":"latest",
+    "@types/body-parser":"latest",
+    "@types/compression":"latest",
+    "@types/cors":"latest",
+    "@types/express":"latest",
+    "@types/mongodb":"latest",
+    "@types/mongoose":"latest",
+    "@types/morgan": "latest",
+    "@types/node": "latest",
+    "@types/spdy":"latest",
+    "@types/uuid":"latest",
+    "@types/winston":"latest",
+    "@types/validator":"latest"
   }
 }
